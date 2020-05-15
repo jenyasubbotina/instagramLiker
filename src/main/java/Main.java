@@ -119,10 +119,7 @@ public class Main
     public static void main(String[] argc)
     {
         System.out.println("Hi");
-        System.setProperty(
-                "webdriver.chrome.driver",
-                "C:\\Users\\WINDOWS 10\\Desktop\\chromedriver.exe"
-        );
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\WINDOWS 10\\Desktop\\chromedriver.exe");
         Liker liker = new Liker("YOUR_LOGIN", "YOUR_PASSWORD");
         liker.start("USERNAME_WHICH_BOT_WILL_LIKE");
     }
