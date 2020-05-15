@@ -1,4 +1,3 @@
-import java.util.logging.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,7 +7,6 @@ class Liker
     private String login;
     private String password;
     private ChromeDriver browser;
-    private Logger logger;
 
     private String button_login = "//*[@id=\"react-root\"]/section/main/div/article/div/div[1]/div/form/div[4]/button";
     private String first_pic = "//*[@id=\"react-root\"]/section/main/div/div[3]/article/div/div/div[1]/div[1]";
